@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+                .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        
+        .about-section {
+        padding: 120px 0 60px;
+    }
+    .about-section h2 {
+        font-size: 2.5em;
+    }
+    .about-section .profile-pic {
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        max-width: 150px;
+        width: 100%;
+    }
+    .about-section .content {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .about-section .info {
+        display: flex;
+        align-items: flex-start; /* Align items to the top */
+        justify-content: center;
+        margin-top: -1.5cm; /* Move container upwards by 1.5cm */
+    }
+    .about-section .info img {
+        border-radius: 10px;
+        max-width: 150px;
+        width: 100%;
+        margin-right: 30px;
+    }
+    .about-section .info .text {
+        max-width: 600px;
+    }
+        .toolset-section {
+            padding: 60px 0;
+            background-color: #fda116;
+            
+        }
+        .toolset-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #fff;
+            margin-left: 2cm;
+        }
+        .tool {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .tool img {
+            max-width: 50px;
+            width: 100%;
+            margin-right: 10px;
+            margin-left: 2cm;
+        }
+        .tool span {
+            font-size: 1.25em;
+            color: #fff;
+        }
+        .about-section .about-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Custom CSS for Skill Set Section */
+        #skillset ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        #skillset ul li {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        .skill-list {
+        list-style-type: circle;
+    }
+        .social-logo {
+            width: 30px; /* Adjust logo size */
+            height: auto;
+            margin-right: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#toolset">Tool Set</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Project Portfolio :">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- About Section -->
+ <section id="about" class="about-section">
+    <div class="container">
+        <div class="info">
+            <img src="https://raw.githubusercontent.com/Suraj215151/profile-pic/main/image.jpg"  alt="Profile Image" class="img-fluid">
+            <div class="text">
+                <h2>Suraj the Data Analyst</h2>
+                <p>Welcome to my portfolio website! I'm Suraj Jagtap, a data analyst with a passion for crafting stunning data visualizations, conducting robust statistical analysis, and making data-driven decisions that matter. Feel free to delve into my projects and don't hesitate to reach out for any inquiries or opportunities for collaboration.</p>
+                <div class="mb-5"></div> <!-- This div adds a margin-bottom -->
+            </div>
+        </div>
+    </div>
+</section>
+    
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-8" style="padding-left: 3cm;">
+                    <h2 style="font-size: 30px;">About <span>Me</span></h2>
+                    <p>I'm a recent postgraduate with a Master's degree in Applied Statistics with Data Science from MIT ADT University, Pune, boasting a strong foundation in data analysis and statistical modeling. My proficiency spans across Python, R, Power BI, and Tableau, with practical experience gained through impactful internships and projects. I am dedicated to leveraging my skills to drive data-driven decision-making and contribute effectively as a Data Analyst.</p>
+                    <p>Explore my portfolio to discover detailed project pages showcasing my work. Feel free to download my resume and portfolio using the buttons below. Let's connect here, on LinkedIn, or GitHub,and I'm always excited to connect with new people.</p>
+                    <div class="mt-4">
+                        <a href="C:\Users\Suraj Jagtap\Desktop\portfolio\Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-4 mt-md-0">
+                    <img src="https://github.com/Suraj215151/profile-pic/raw/main/image2.jpg" alt="Description of Image" style="width: 300px; height: auto; border-radius: 10px;">
+                    <div class="mt-3">
+                        <a href="https://www.linkedin.com/in/suraj-jagtap-data-analyst/" target="_blank">
+                            <img src="https://raw.githubusercontent.com/Suraj215151/social-tools/main/linkedin.png" alt="LinkedIn" class="social-logo">
+                        </a>
+                        <a href="https://github.com/Suraj149696" target="_blank">
+                            <img src="https://raw.githubusercontent.com/Suraj215151/social-tools/main/github.png" alt="GitHub" class="social-logo">
+                        </a>
+                        <a href="file:///C:/Users/Suraj%20Jagtap/Desktop/portfolio/index.html#contact" target="_blank">
+                            <img src="https://raw.githubusercontent.com/Suraj215151/social-tools/main/Link1.webp" alt="Link1" class="social-logo">
+                        </a>
+                    </div>
+                </div>                               
+            </div>
+        </div>
+        
+<style>
+    .ml-4 {
+        margin-left: 4cm; /* Adjust this value as needed */
+    }
+</style>
+
+    </section>
+
+  <!-- Tool Set Section -->
+  <section id="toolset" class="toolset-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 style="text-align: left; font-size: 35px; font-weight: bold;">My Tool Set :</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/Python.png" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/R%20Software.png" alt="R Software">
+                    <span>R Software</span>
+                </div>
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/SQL.jpg" alt="SQL">
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/excel.png" alt="Excel">
+                    <span>Excel</span>
+                </div>
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/Power%20BI.png" alt="Power BI">
+                    <span>Power BI</span>
+                </div>
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/Tableau.png" alt="Tableau">
+                    <span>Tableau</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/Seaborn.png" alt="Seaborn">
+                    <span>Seaborn</span>
+                </div>
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/Pandas.png" alt="Pandas">
+                    <span>Pandas</span>
+                </div>
+                <div class="tool">
+                    <img src="https://raw.githubusercontent.com/Suraj215151/tool/main/Sklearn.jpeg" alt="Sklearn">
+                    <span>Sklearn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <style>
+        /* Custom CSS for Skill Set Section */
+        #skillset ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #skillset ul li {
+            margin-bottom: 10px;
+            font-size: 22px; /* Adjusted font size */
+        }
+    </style>
+    
+<!-- My Skill Set Section -->
+<section id="skillset" class="skillset-section mt-5" style="padding-left: 4cm;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 style="text-align: left; font-size: 28px; font-weight: bold;">My Skill Set :</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="skill-list">
+                    <li>Data Wrangling</li>
+                    <li>Data Cleaning</li>
+                    <li>Data Transformation</li>
+                    <li>Data Management</li>
+                    <li>Data Visualization</li>
+                    <li>Storytelling with Data</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="skill-list">
+                    <li>Statistical Analysis</li>
+                    <li>Time Series Analysis</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Natural Language Processing</li>
+                    <li>Regression Analysis</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="skill-list">
+                    <li>Sentiment Analysis</li>
+                    <li>K-Mean Clustering</li>
+                    <li>Big Data Analysis</li>
+                    <li>Descriptive Analysis</li>
+                    <li> Hypothesis testing</li>
+                    <li>Dashboards</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Project Portfolio Section -->
+    <section id="portfolio-brief" class="portfolio-brief-section mt-5" style="padding-left: 4cm;">
+        <div class="container">
+            <h2>Project Portfolio :</h2>
+            <div class="row mt-3 project">
+                <!-- First Project -->
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <a href="file:///C:/Users/Suraj%20Jagtap/Desktop/portfolio/capgemini_project.html" target="_blank">
+                        <img src="https://raw.githubusercontent.com/Suraj215151/project/main/Capgemini.jpg" alt="Capgemini Project" class="img-fluid rounded">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <a href="file:///C:/Users/Suraj%20Jagtap/Desktop/portfolio/capgemini_project.html" target="_blank">
+                        <h3>A Comprehensive Study of Capgemini Employee Reviews</h3>
+                    </a>
+                    <p> This project aims to analyze employee reviews to uncover trends and factors influencing satisfaction. Key objectives include identifying patterns in satisfaction levels, developing an NLP model for keyword extraction, and creating a recommendation system for tailored suggestions. Additionally, a multiclass sentiment classification model will be built to categorize employee feedback into positive, negative, and neutral sentiments, enhancing insights into employee experiences and guiding improvements.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5 project">
+                <!-- Second Project -->
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <a href="file:///C:/Users/Suraj%20Jagtap/Desktop/portfolio/weather_project.html" target="_blank">
+                        <img src="https://raw.githubusercontent.com/Suraj215151/project/main/pune.jpg" alt="Weather Forecasting Project" class="img-fluid rounded">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <a href="file:///C:/Users/Suraj%20Jagtap/Desktop/portfolio/weather_project.html" target="_blank">
+                        <h3>Time Series and Machine Learning Approach for Weather Forecasting</h3>
+                    </a>
+                    <p>The project focuses on analyzing and forecasting Pune city's temperature using time series modeling and machine learning techniques. The objectives include studying trend and seasonal patterns in the weather dataset, fitting suitable time series models, and generating forecasts based on trend and seasonality. Additionally, it involves comparing the performance of various time series models to identify the most accurate method for temperature prediction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="bg-orange text-white py-4" style="background-color: orange;">
+    <div class="container text-center">
+        <!-- Logos and Links -->
+        <div class="mb-3">
+            <a href="https://www.linkedin.com/in/suraj-jagtap-data-analyst/" target="_blank">
+                <img src="https://raw.githubusercontent.com/Suraj215151/social-tools/main/linkedin.png" alt="LinkedIn" class="img-fluid mx-2" style="width: 25px; height: 25px;">
+            </a>
+            <a href="https://github.com/Suraj149696" target="_blank">
+                <img src="https://raw.githubusercontent.com/Suraj215151/social-tools/main/github.png" alt="GitHub" class="img-fluid mx-2" style="width: 25px; height: 25px;">
+            </a>
+            <a href="https://raw.githubusercontent.com/Suraj215151/social-tools/main/Link1.webp" target="_blank">
+                <img src="https://raw.githubusercontent.com/Suraj215151/social-tools/main/Link1.webp" alt="Portfolio" class="img-fluid mx-2" style="width: 25px; height: 25px;">
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+    
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+  
